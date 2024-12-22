@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.19" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="shortcut icon" href="/images/hero.png"><title>随机数 | Hello Solidity!</title><meta name="description" content="一起快乐学习solidity吧～ 👏">
+    <link rel="preload" href="/solidity/assets/style-PoWje89h.css" as="style"><link rel="stylesheet" href="/solidity/assets/style-PoWje89h.css">
+    <link rel="modulepreload" href="/solidity/assets/app-Dt8Q2BcN.js"><link rel="modulepreload" href="/solidity/assets/random-number.html-mYiVPLYS.js">
+    <link rel="prefetch" href="/solidity/assets/index.html-eaf28KE5.js" as="script"><link rel="prefetch" href="/solidity/assets/about.html-CfPm55Kz.js" as="script"><link rel="prefetch" href="/solidity/assets/glossary.html-DRVSXAzP.js" as="script"><link rel="prefetch" href="/solidity/assets/payable.html-DtZ0TP7N.js" as="script"><link rel="prefetch" href="/solidity/assets/withdrawal.html-M4bXFxTe.js" as="script"><link rel="prefetch" href="/solidity/assets/404.html-GBUMNzu2.js" as="script"><link rel="prefetch" href="/solidity/assets/setupDevtools-7MC2TMWH-BO9Tw_iA.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/solidity/"><!----><span class="vp-site-name" aria-hidden="true">Hello Solidity!</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/solidity/" aria-label="首页"><!---->首页<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/solidity/about.html" aria-label="关于"><!---->关于<!----></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/ethanschen/solidity" aria-label="GitHub" rel="noopener noreferrer" target="_blank"><!---->GitHub<!----></a></div><!--]--></nav><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/solidity/" aria-label="首页"><!---->首页<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/solidity/about.html" aria-label="关于"><!---->关于<!----></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/ethanschen/solidity" aria-label="GitHub" rel="noopener noreferrer" target="_blank"><!---->GitHub<!----></a></div><!--]--></nav><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><a class="route-link route-link-active auto-link vp-sidebar-item vp-sidebar-heading active" href="/solidity/random-number.html" aria-label="随机数"><!---->随机数<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item vp-sidebar-heading" href="/solidity/payable.html" aria-label="可支付"><!---->可支付<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item vp-sidebar-heading" href="/solidity/withdrawal.html" aria-label="提现"><!---->提现<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item vp-sidebar-heading" href="/solidity/glossary.html" aria-label="名词释义"><!---->名词释义<!----></a><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content" vp-content><!--[--><!--]--><div><h1 id="随机数" tabindex="-1"><a class="header-anchor" href="#随机数"><span>随机数</span></a></h1><p>本节我们讨论一个非常重要的元素 —— 随机数。</p><p>在虚拟世界的很多场景中都需要引入随机数，来让未来变得不可琢磨，激起我们探索的欲望。</p><blockquote><p>想象你在玩游戏的时候，是不是每局都不尽相同呢？</p></blockquote><p>那请问在<code>Solidity</code>里该如何生成随机数呢？</p><h2 id="keccak256" tabindex="-1"><a class="header-anchor" href="#keccak256"><span>keccak256</span></a></h2><p>在<code>Solidity</code>中最好的随机数生成器是<code>keccak256</code></p><p>我们可以通过如下代码生成0-100随机数：</p><div class="language-solidity line-numbers-mode" data-highlighter="prismjs" data-ext="solidity" data-title="solidity"><pre><code><span class="line"><span class="token comment">// 1、使用 keccak256 计算 now 时间戳的哈希值</span></span>
+<span class="line"><span class="token comment">// 2、转换成 uint 类型</span></span>
+<span class="line"><span class="token comment">// 3、对 100 取余</span></span>
+<span class="line"><span class="token builtin">uint</span><span class="token punctuation">(</span><span class="token function">keccak256</span><span class="token punctuation">(</span>now<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">100</span><span class="token punctuation">;</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="安全性分析" tabindex="-1"><a class="header-anchor" href="#安全性分析"><span>安全性分析</span></a></h2><p>理想情况中，调用方会将执行智能合约的事务广播到以太坊网络中，</p><p>当已收集该事务的某一节点顺利的解决难题，发布区块时，智能合约事务执行结果也将尘埃落定。</p><p>但存在这样一种攻击的方式，</p><p>攻击者在隔离节点上执行智能合约并根据结果选择是否进行广播（解除隔离）</p><ol><li>如果执行结果对攻击者有利则尝试解决难题，当难题解决后发布区块进行广播</li><li>如果执行结果对攻击者不利则重置状态到执行智能合约前</li></ol><p>如此一来，便可以间接控制随机数为攻击者所用！🦹</p><p>所以<a href="#keccak256">上面的方法</a>实际上非常的<strong>不安全</strong></p><p>但因为解决难题的几率非常小，所以除非攻击的回报非常丰厚，</p><p>否则攻击者不会采用这种方式进行攻击。</p><h2 id="拓展知识" tabindex="-1"><a class="header-anchor" href="#拓展知识"><span>拓展知识</span></a></h2><p>话说回来，</p><p>到底是否存在在智能合约中安全生成随机数的方法呢？</p><p>答案是肯定的，</p><p>尽管困难，人们还是讨论出了<a href="https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract" target="_blank" rel="noopener noreferrer">一些办法</a> 。</p></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: ethanschen@163.com">Ethan S. Chen</span><!----><!--]--><!--]--></span></div></div></footer><nav class="vp-page-nav" aria-label="page navigation"><!----><a class="route-link auto-link next" href="/solidity/payable.html" aria-label="可支付"><div class="hint">Next <span class="arrow right"></span></div><div class="link"><span>可支付</span></div></a></nav><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/solidity/assets/app-Dt8Q2BcN.js" defer></script>
+  </body>
+</html>

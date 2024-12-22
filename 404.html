@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.19" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="shortcut icon" href="/images/hero.png"><title>Hello Solidity!</title><meta name="description" content="一起快乐学习solidity吧～ 👏">
+    <link rel="preload" href="/solidity/assets/style-PoWje89h.css" as="style"><link rel="stylesheet" href="/solidity/assets/style-PoWje89h.css">
+    <link rel="modulepreload" href="/solidity/assets/app-Dt8Q2BcN.js"><link rel="modulepreload" href="/solidity/assets/404.html-GBUMNzu2.js">
+    <link rel="prefetch" href="/solidity/assets/index.html-eaf28KE5.js" as="script"><link rel="prefetch" href="/solidity/assets/about.html-CfPm55Kz.js" as="script"><link rel="prefetch" href="/solidity/assets/glossary.html-DRVSXAzP.js" as="script"><link rel="prefetch" href="/solidity/assets/payable.html-DtZ0TP7N.js" as="script"><link rel="prefetch" href="/solidity/assets/random-number.html-mYiVPLYS.js" as="script"><link rel="prefetch" href="/solidity/assets/withdrawal.html-M4bXFxTe.js" as="script"><link rel="prefetch" href="/solidity/assets/setupDevtools-7MC2TMWH-BO9Tw_iA.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-67c08c1d><main class="page" data-v-67c08c1d><div class="theme-default-content" vp-content data-v-67c08c1d><h1 data-v-67c08c1d>404</h1><blockquote data-v-67c08c1d>There&#39;s nothing here.</blockquote><a class="route-link" href="/solidity/" data-v-67c08c1d>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/solidity/assets/app-Dt8Q2BcN.js" defer></script>
+  </body>
+</html>
