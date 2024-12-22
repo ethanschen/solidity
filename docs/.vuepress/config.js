@@ -1,14 +1,17 @@
-import { defineUserConfig, defaultTheme } from 'vuepress';
-import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance';
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'Hello Solidity!',
   description: '一起快乐学习solidity吧～ 👏',
+
   base: '/solidity/',
   head: [
     ['link', { rel: 'shortcut icon', href: '/images/hero.png' }],
     ],
+
   theme: defaultTheme({
     navbar: [{
       text: '首页',
@@ -26,5 +29,10 @@ export default defineUserConfig({
       'withdrawal.md',
       'glossary.md'
     ]
-  })
+  }),
+
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
 })

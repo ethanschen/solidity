@@ -2,26 +2,30 @@
   "name": "hello-solidity",
   "version": "1.0.0",
   "description": "一起快乐学习solidity吧～ 👏",
-  "main": "index.js",
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "author": "kareza",
   "license": "MIT",
+  "type": "module",
+  "author": "ethanschen",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "npx vp-update"
+  },
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.68",
-    "vuepress-plugin-md-enhance": "^2.0.0-beta.237"
+    "@vuepress/plugin-blog": "2.0.0-rc.66",
+    "@vuepress/theme-default": "^2.0.0-rc.66",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.19"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karezachen/solidity.git"
+    "url": "git+https://github.com/ethanschen/solidity.git"
   },
   "keywords": [
     "solidity"
   ],
   "bugs": {
-    "url": "https://github.com/karezachen/solidity/issues"
+    "url": "https://github.com/ethanschen/solidity/issues"
   },
-  "homepage": "https://karezachen.github.io/solidity"
+  "homepage": "https://ethanschen.github.io/solidity"
 }
