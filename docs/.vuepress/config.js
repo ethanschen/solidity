@@ -21,7 +21,7 @@ export default defineUserConfig({
       link: '/about.md'
     },{
       text: 'GitHub',
-      link: 'https://github.com/karezachen/solidity'
+      link: 'https://github.com/ethanschen/solidity'
     }],
     sidebar: [
       'random-number.md',
